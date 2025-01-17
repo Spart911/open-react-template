@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Home - Open PRO",
-  description: "Page description",
+  title: "NYUROPRINT PROJECT",
+  description: "Сайт проекта NyuroPrint ",
 };
 
 import PageIllustration from "@/components/page-illustration";
