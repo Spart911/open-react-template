@@ -6,11 +6,11 @@ import BlurredShape from "@/public/images/blurred-shape.svg";
 import { useState } from "react";
 
 export default function Features() {
-  const [activeIndex, setActiveIndex] = useState(null);
+  const [activeIndex, setActiveIndex] = useState<number | null>(null);
 
-  const onTitleClick = (index) => {
-    setActiveIndex(index === activeIndex ? null : index);
-  };
+  const onTitleClick = (index: number) => {
+  setActiveIndex(index === activeIndex ? null : index);
+};
 
   const faqItems = [
     {
