@@ -216,7 +216,6 @@ export function Testimonial({
 }: {
   testimonial: {
     img: StaticImageData;
-    clientImg: StaticImageData;
     name: string;
     company: string;
     content: string;
