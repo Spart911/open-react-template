@@ -29,7 +29,8 @@ export default function HeroHome() {
                 data-aos="fade-up"
                 data-aos-delay={200}
               >
-                Наше программное обеспечение нацелено на обнаружение дефектов на аддитивном производстве и их устранение. Мы используем алгоритмы и нейросетевой подход для определения искажений на фотографиях отпечатанных изделий, а по выходу наша программа предоставляет инструкции по их оптимальному устранению. На данный момент ведется разработка приложения, которое будет самостоятельно трудиться над их устранением, путем корректировки параметров печати. Наше решение поможет вам сократить временные и финансовые издержки на производстве.
+                Наше программное обеспечение нацелено на обнаружение дефектов аддитивного производства и их устранение. С помощью алгоритмов и нейросетевого подхода мы находим отклонения напечатанных изделий от нормы по их фотографиям, вследствие чего, наша программа предоставляет инструкции по оптимальному устранению дефектов. 
+                В настоящее время мы работаем над созданием приложения, которое будет самостоятельно выявлять и устранять дефекты, путем корректировки параметров печати, сокращая ваши временные и финансовые издержки на производстве.
               </p>
               <div className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center">
               
@@ -38,7 +39,7 @@ export default function HeroHome() {
                     className="btn relative w-full bg-gradient-to-b from-gray-800 to-gray-800/60 bg-[length:100%_100%] bg-[bottom] text-gray-300 before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_right,theme(colors.gray.800),theme(colors.gray.700),theme(colors.gray.800))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] hover:bg-[length:100%_150%] sm:ml-4 sm:w-auto"
                     href="https://nyuroprint.ru/"
                   >
-                    Перейти к Alfa версии
+                    Перейти к альфа-версии
                   </a>
                 </div>
               </div>
@@ -46,17 +47,18 @@ export default function HeroHome() {
           </div>
 
           <div className="flex flex-wrap items-center gap-8">
-        {/* SVG */}
-        <img
-          src="images/Group 1 (1).svg"
-          width={300}
-          height={310}
-          alt="Photo thumbnail"
-          style={{
-            borderRadius: '16px',
-            filter: 'blur(0.1px) brightness(0.8)',
-          }}
-        />
+            {/* SVG */}
+            <div className="w-full sm:w-auto flex justify-center">
+              <img
+                src="images/Group 1 (1).svg"
+                className="w-full max-w-xs sm:max-w-none"
+                alt="Photo thumbnail"
+                style={{
+                  borderRadius: "16px",
+                  filter: "blur(0.1px) brightness(0.8)",
+                }}
+              />
+            </div>
 
         {/* Text Block */}
         <div className="flex-1 text-xl text-indigo-200/65 text-center" data-aos="fade-up" data-aos-delay={400}>

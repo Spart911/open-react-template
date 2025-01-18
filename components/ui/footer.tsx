@@ -22,7 +22,7 @@ export default function Footer() {
           {/* Местоположение */}
           <div className="text-sm sm:self-start">
             <p>
-              <strong>Местоположение:</strong> 
+              <strong>Местоположение: </strong> 
               г.Ростов-на-Дону, Ростовская обл. Почтовый индекс: 344000
             </p>
           </div>

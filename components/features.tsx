@@ -42,7 +42,6 @@ export default function Features() {
 
   const styles = {
     accordion: {
-      width: "90%",
       fontFamily: "Inter, sans-serif",
     },
     accordionItem: {

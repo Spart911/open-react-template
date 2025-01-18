@@ -51,8 +51,8 @@ const testimonials = [
     name: "Кравцов А. М.",
     company: "Акционер",
     content:
-      "Эксперт по разработке клиенской части сервиса.",
-    categories: [1, 3, 4],
+      "Инженер-технолог, материаловед.",
+    categories: [1, 2],
   },
   {
     img: TestimonialImg05,
@@ -105,7 +105,7 @@ export default function Testimonials() {
 
         <div>
           {/* Buttons */}
-          <div className="flex justify-center pb-12 max-md:hidden md:pb-16">
+          <div className="flex justify-center pb-12 md:pb-16">
             <div className="relative inline-flex flex-wrap justify-center rounded-[1.25rem] bg-gray-800/40 p-1">
               {/* Button #1 */}
               <button
