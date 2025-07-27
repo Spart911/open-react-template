@@ -28,7 +28,14 @@ export default function Cta() {
 «Студенческий стартап» федерального проекта «Платформа университетского
 технологического предпринимательства»
             </h2>
-            
+            <div className="flex justify-center mt-8" data-aos="fade-up" data-aos-delay="100">
+              <Image
+                src="/images/logofsi.png"
+                width={200}
+                height={100}
+                alt="Логотип ФСИ"
+              />
+            </div>
           </div>
         </div>
       </div>
